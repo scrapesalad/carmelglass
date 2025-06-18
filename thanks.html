@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Carmel Valley Glass</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .thank-you-container {
+            max-width: 600px;
+            padding: 3rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        
+        .success-icon {
+            font-size: 4rem;
+            color: #28a745;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #ffd700;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .contact-info {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+        
+        .contact-info h3 {
+            color: #ffd700;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info p {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #1e3c72;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .thank-you-container {
+                margin: 2rem;
+                padding: 2rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="success-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        
+        <h1>Thank You!</h1>
+        
+        <p>Your message has been sent successfully. We'll get back to you as soon as possible.</p>
+        
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 813 Bacademy Dr.</p>
+            <p><i class="fas fa-user"></i> Brad Meshke</p>
+            <p><i class="fas fa-envelope"></i> glassmanbrad789@gmail.com</p>
+            <p><i class="fas fa-certificate"></i> License #729701</p>
+        </div>
+        
+        <p>In the meantime, feel free to reach out directly:</p>
+        
+        <a href="mailto:glassmanbrad789@gmail.com" class="back-btn">
+            <i class="fas fa-envelope"></i> Send Email
+        </a>
+        
+        <br><br>
+        
+        <a href="index.html" class="back-btn">
+            <i class="fas fa-home"></i> Back to Home
+        </a>
+    </div>
+</body>
+</html> 
